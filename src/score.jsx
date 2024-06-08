@@ -44,7 +44,7 @@ const Score = () => {
             {
                 group === "groupA" ?
 
-                    wicket === 10 || over >= 0.6 ?
+                    wicket === 10 || over >= 4.6 ?
                         <div className="centered-content">
                             <div className="score">
                                 <h2>Match Score</h2>
@@ -111,7 +111,7 @@ const Score = () => {
                     totalrun < currentRun ?
                         <div className="centered-content">{totalrun < currentRun ? <h2>GroupB - Match Winn!! </h2> : <h2> GroupA - Match Winn!! </h2>}</div> :
 
-                        wicket === 10 || over >= 0.6 ?
+                        wicket === 10 || over >= 4.6 ?
                             totalrun === currentRun ? <div className="centered-content"><h2>Match tie!! </h2></div> :
                                 <div className="centered-content"><h2> GroupA - Match Winn!! </h2></div> :
 
