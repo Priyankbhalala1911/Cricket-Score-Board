@@ -15,8 +15,8 @@
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
 }
 .runShow{
-    justify-content: center;
-    max-width: 90%;
+    /* justify-content: center; */
+    max-width: 100%;
     flex-wrap: wrap;
 }
 button{

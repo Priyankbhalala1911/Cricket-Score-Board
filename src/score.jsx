@@ -1,4 +1,4 @@
-import React, {useState } from 'react'
+import React, {useLayoutEffect, useState } from 'react'
 import "./score.css"
 
 const Score = () => {
@@ -12,6 +12,10 @@ const Score = () => {
     const [over, setOver] = useState(0.0)
     const [totalOver, setTotalOver] = useState(0)
     // const [commantry,setCommantry]= useState(false)
+
+    useLayoutEffect(()=>{
+        console.log(runOver)
+    })
 
     const handleScore = (run) => {
 
